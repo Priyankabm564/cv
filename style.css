@@ -1,0 +1,94 @@
+/***********Elements******/
+body {
+  background-color: #d3e0dc;
+}
+
+h1 {
+  color: #09015f;
+  letter-spacing: 3px;
+  font-size: 35px;
+  text-shadow: 2px 2px 2px #66bfbf;
+}
+
+h3 {
+  background-color: #822659;
+  color: #66bfbf;
+
+}
+
+a {
+  color: #66bfbf;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  width: 20%;
+  border-width: 4px;
+}
+
+caption {
+  font-family: 'Rock Salt', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 2px;
+  line-height: 40px;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+/***********Class****************/
+.CareerTable {
+
+
+  border-top: 2px solid #350b40;
+  border-bottom: 2px solid #350b40;
+  width: 50%;
+  table-layout: fixed;
+}
+
+.CareerTable th {
+  border-bottom: 2px solid #350b40;
+  background-color: #fbaccc;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px #a4ebf3;
+  font-size: 18px;
+}
+
+.CareerTable td {
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.CareerTable tr {
+  background-color: #f1d1d0;
+}
+
+.Odd td:nth-child(odd) {
+  background-color: #f8dc81;
+}
+
+.Even td:nth-child(even) {
+  background-color: #ffcc29;
+}
+
+/***********ID****************/
+#MyImage {
+  border-radius: 100%;
+}
+/*********sudo selector********/
+
+h3:hover {
+  background-color: #1687a7;
+  color: #822659;
+  width: 100vw;
+}
+a:hover {
+  color: #822659;
+}
